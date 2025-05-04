@@ -1,0 +1,12 @@
+.item {
+  height: 3px;
+  width: 50%;
+  position: relative;
+  background-color: white;
+  z-index: 4;
+}
+.menu {
+  display: none;
+  will-change: transform, opacity;
+  pointer-events: auto;
+}

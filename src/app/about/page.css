@@ -1,0 +1,20 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.box p {
+  width: 100%;
+  font-size: 14px;
+
+}
+.box hr {
+  opacity: 0.5;
+}
+.box h6 {
+    font-size: 0.85rem;
+}
+.box h4 {
+    font-size: 25px;
+    font-weight: 600;
+}

@@ -1,0 +1,23 @@
+#banner-1,
+#banner-2,
+#banner-3,
+#banner-4 {
+  position: fixed; /* or absolute depending on your layout */
+  height: 25vh; /* each banner takes 1/4 of the viewport height */
+  width: 100%;
+  z-index: 50; /* make sure they're above other content */
+  background-color: #000; /* give them a visible background */
+}
+
+#banner-1 {
+  top: 0;
+}
+#banner-2 {
+  top: 25vh;
+}
+#banner-3 {
+  top: 50vh;
+}
+#banner-4 {
+  top: 75vh;
+}

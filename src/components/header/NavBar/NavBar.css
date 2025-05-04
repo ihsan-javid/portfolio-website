@@ -1,0 +1,49 @@
+.text-wrapper {
+  width: 7rem;
+  height: 52px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.credit,
+.text {
+  transition: 0.6s ease-in-out;
+}
+.logo:hover .text {
+  left: -3.9rem;
+}
+.logo:hover .credit {
+  transform: rotate(360deg);
+}
+
+.link {
+  position: relative;
+  text-align: center;
+  width: 7rem;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  bottom: 2%;
+  left: 45%;
+  scale: 0;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+.link:hover {
+  color: #e71d36;
+}
+.link:hover::after {
+  scale: 1;
+}

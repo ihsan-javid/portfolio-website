@@ -1,0 +1,24 @@
+.nav-link {
+  position: relative;
+  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: -25px;
+  background-color: #e71d36;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  scale: 0;
+  transition: 0.3s ease-in-out;
+}
+.nav-link:hover {
+  color: #e71d36;
+}
+.nav-link:hover::after {
+  scale: 1;
+}

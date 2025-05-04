@@ -1,0 +1,24 @@
+.heading-text-container a {
+  position: relative;
+  color: #fdfffc;
+  text-transform: uppercase;
+  font-family: MediaSans;
+}
+
+.heading-text-container a::after {
+  content: attr(data-text);
+  bottom: 45%;
+  color: #fdfffc52;
+  left: 0;
+  font-family: MediaSans;
+  position: absolute;
+}
+
+.heading-text-container a::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 45%;
+  color: #fdfffc52;
+  left: 0;
+  font-family: MediaSans;
+}

@@ -1,0 +1,39 @@
+
+.loading-dots span {
+  opacity: 0;
+  animation: dots 2.5s infinite; /* Increased duration */
+}
+
+.loading-dots span:nth-child(2) {
+  animation-delay: 0.8s; /* Increased delay */
+}
+
+.loading-dots span:nth-child(3) {
+  animation-delay: 1.6s;
+}
+
+.loading-dots span:nth-child(4) {
+  animation-delay: 2.4s;
+}
+
+@keyframes dots {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.btn .icon {
+  font-size: 1.25rem;
+  transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.btn:hover .icon {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  transform: rotate(-45deg);
+}
