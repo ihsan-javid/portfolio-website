@@ -2,6 +2,10 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"]
-    }
-  }
+    },
+    "moduleResolution": "node",
+    "allowJs": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
 }
